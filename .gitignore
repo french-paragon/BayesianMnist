@@ -1,0 +1,13 @@
+#tmp files
+checkpoints/*
+data/*
+
+#compiled files
+*.pyc
+
+#backup and cache files
+*~
+__pycache__
+
+#project files
+.spyproject
