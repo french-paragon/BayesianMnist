@@ -50,7 +50,7 @@ if __name__ == "__main__" :
 	
 	
 	parser.add_argument('--savedir', default = None, help="Directory where the models can be saved or loaded from")
-	parser.add_argument('--notrain', action = "store_true", help="Directory where the models can be saved or loaded from")
+	parser.add_argument('--notrain', action = "store_true", help="Load the models directly instead of training")
 	
 	parser.add_argument('--nepochs', type=int, default = 10, help="The number of epochs to train for")
 	parser.add_argument('--nbatch', type=int, default = 64, help="Batch size used for training")

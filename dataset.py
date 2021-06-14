@@ -11,6 +11,9 @@ from torch.utils.data.sampler import SubsetRandomSampler
 import torchvision
 
 def getSets(filteredClass = None, removeFiltered = True) :
+	"""
+	Return a torch dataset
+	"""
 	
 	train = torchvision.datasets.MNIST('./data/', train=True, download=True,
 								transform=torchvision.transforms.Compose([
