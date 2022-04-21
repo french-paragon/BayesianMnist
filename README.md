@@ -1,6 +1,6 @@
 # Bayesian MNIST
 
-Bayesian MNIST is a companion toy example for our tutorial "Hands-on Bayesian Neural Networks - a Tutorial for Deep Learning Users". It is just a hello world project showing how a BNN can be implemented to perform classification on MNIST.
+Bayesian MNIST is a companion toy example for our tutorial ["Hands-on Bayesian Neural Networks - A Tutorial for Deep Learning Users"](https://doi.org/10.1109/MCI.2022.3155327). It is just a hello world project showing how a BNN can be implemented to perform classification on MNIST.
 
 ## Dependancies
 
@@ -29,22 +29,13 @@ The project is split into multiple files:
 
 If you use our code in your project please cite our tutorial:
 
-	@article{DBLP:journals/corr/abs-2007-06823,
-	author    = {Laurent Valentin Jospin and
-				Wray L. Buntine and
-				Farid Boussa{\"{\i}}d and
-				Hamid Laga and
-				Mohammed Bennamoun},
-	title     = {Hands-on Bayesian Neural Networks - a Tutorial for Deep Learning Users},
-	journal   = {CoRR},
-	volume    = {abs/2007.06823},
-	year      = {2020},
-	url       = {https://arxiv.org/abs/2007.06823},
-	archivePrefix = {arXiv},
-	eprint    = {2007.06823},
-	timestamp = {Tue, 21 Jul 2020 12:53:33 +0200},
-	biburl    = {https://dblp.org/rec/journals/corr/abs-2007-06823.bib},
-	bibsource = {dblp computer science bibliography, https://dblp.org}
+	@ARTICLE{9756596,
+	author={Jospin, Laurent Valentin and Laga, Hamid and Boussaid, Farid and Buntine, Wray and Bennamoun, Mohammed},
+	journal={IEEE Computational Intelligence Magazine}, 
+	title={Hands-On Bayesian Neural Networks—A Tutorial for Deep Learning Users}, 
+	year={2022},
+	volume={17},
+	number={2},
+	pages={29-48},
+	doi={10.1109/MCI.2022.3155327}
 	}
-
-(The final peer reviewed paper still under revision and should be available soon) 
